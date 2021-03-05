@@ -1,2 +1,2 @@
 # Python
- Exercícos de Python
+ Exercícos de Python Resolvidos
