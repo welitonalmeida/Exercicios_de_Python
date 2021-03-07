@@ -1,6 +1,6 @@
 from math import factorial
 
-n = int(input('Digite um número ppara calcular seu Fatorial: '))
+n = int(input('Digite um número para calcular seu Fatorial: '))
 
 #print('-='*20)
 #f = factorial(n)
