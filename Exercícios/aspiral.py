@@ -1,6 +1,5 @@
 import turtle
-n = 60
-
+n = 1000
 pen = turtle.Turtle()
 
 for i in range(n):
