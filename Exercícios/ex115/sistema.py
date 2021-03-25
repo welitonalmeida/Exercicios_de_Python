@@ -1,9 +1,17 @@
 from lib.interface import *
+from lib.arquivo import *
 from time import sleep
+
+arq = 'curso.txt'
+
+if not arquivoexiste(arq):
+    criararquivo(arq)
+
 while True:
     resposta = menu(['Ver Pessoas Cadastradas', 'Cadastrar Nova Pessoas', 'Sair do Sistema'])
     if resposta == 1:
-        cabeçalho('Opção 1')
+        # LISTAR O CONTEÚDO DE UM ARQUIVO!
+        lerarquivo(arq)
     elif resposta == 2:
         cabeçalho('Opção 2')
     elif resposta == 3:
