@@ -1,7 +1,7 @@
 # pip install speedtest-cli
 import speedtest
 
-test = speedtest.Speedtest()
-down = test.download()
-upl = test.upload()
+teste = speedtest.teste()
+down = teste.download()
+upl = teste.upload()
 print(f"A velocidade de Download é: {down}.\nA velocide de Upload é {upl}.")
