@@ -23,7 +23,7 @@ while True:
 
 # Mostrar os resultados
 
-print('-=' * 30)
+print('-=' * 20)
 print('cod ', end='')
 for i in jogador.keys():
     print(f'{i:<15}', end='')
